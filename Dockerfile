@@ -2,6 +2,6 @@ FROM alpine:latest
 
 ADD main.py /opt/main.py
 
-RUN pip install paramiko
+RUN apk add --no-cache --virtual python3 && pip install paramiko
 
-ENTRYPOINT ["sh", "-c", "/opt/entrypoint.sh"]
+ENTRYPOINT ["python", "", "/opt/main.py"]
