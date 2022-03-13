@@ -1,0 +1,8 @@
+{
+    "name": "SSH",
+    "description": "Deploy SSH on Heroku.",
+    "keywords": ["SSH"],
+    "website": "https://github.com/luanwillianzh",
+    "repository": "https://github.com/luanwillianzh7/herokussh",
+    "stack": "container"
+}
