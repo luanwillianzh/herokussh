@@ -13,7 +13,7 @@ TIMEOUT = 60
 MSG = ''
 COR = '<font color="null">'
 FTAG = '</font>'
-DEFAULT_HOST = "127.0.0.1:22"
+DEFAULT_HOST = "127.0.0.1:8022"
 RESPONSE = "HTTP/1.1 101 " + str(COR) + str(MSG) + str(FTAG) + "\r\n\r\n"
  
 class Server(threading.Thread):
