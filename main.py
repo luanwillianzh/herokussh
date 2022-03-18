@@ -22,7 +22,7 @@ MAX_THREADS = 200
 BUFSIZE = 2048
 TIMEOUT_SOCKET = 5
 LOCAL_ADDR = '0.0.0.0'
-LOCAL_PORT = 80
+LOCAL_PORT = 1080
 # Parameter to bind a socket to a device, using SO_BINDTODEVICE
 # Only root can set this option
 # If the name is an empty string or None, the interface is chosen when
